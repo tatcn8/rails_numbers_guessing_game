@@ -1,24 +1,16 @@
-# README
+# Number Guessing Game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This game is inspired by wordle. It is designed to be played once per day.
 
-Things you may want to cover:
+* The program will generate a random number between one and one million 
 
-* Ruby version
+* The user will be allowed 20 guesses to identify the number
 
-* System dependencies
+* If the user's guess is too low, the program will inform the user that their guess was too low and prompt them to guess a higher number
 
-* Configuration
+* If the user's guess is too high, the program will inform the user that their guess was too high and prompt them to guess a lower number
 
-* Database creation
+* The game continues until either the user guesses the number correctly, or 20 incorrect guesses have been made
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
